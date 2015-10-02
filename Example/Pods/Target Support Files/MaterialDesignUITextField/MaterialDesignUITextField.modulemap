@@ -1,0 +1,6 @@
+framework module MaterialDesignUITextField {
+  umbrella header "MaterialDesignUITextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

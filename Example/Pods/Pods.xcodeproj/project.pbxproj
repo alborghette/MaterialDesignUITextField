@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0438C324ECED8A1073103297761B5620 /* Pods-MaterialDesignUITextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD72659A28102A16ABFA173BE57731F /* Pods-MaterialDesignUITextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BB41BD1E7829DC4059A28F55CC59D64 /* MDTFTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F861F40F56610E88469CA22B1A30528 /* MDTFTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127A0EA2959359184D3F8163B511F05B /* Pods-MaterialDesignUITextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1548EC88370F8AA45B06FF5FC7148D /* Pods-MaterialDesignUITextField_Tests-dummy.m */; };
+		6C28DACFA3C3B1922D0D9D902D0F9130 /* MDTFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072C09B2F04C94312C60D6DE33719B0 /* MDTFTextField.m */; };
+		70E6315BAAA60569D4A50E9B788DC121 /* MaterialDesignUITextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FFBFA71C6B7BF6C71C9E60E405CBEF /* MaterialDesignUITextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4E8F0A130637EFDAEBD8F440E8697E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FCA635A0246DBCD54ABE890FD42DD5 /* Foundation.framework */; };
+		7E8C0E47EFA12E5E804CBDD53937829A /* Pods-MaterialDesignUITextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5653CB52283E447CB3D1D6883CB15346 /* Pods-MaterialDesignUITextField_Example-dummy.m */; };
+		98A22B781A5E967DD383B166CE222431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FCA635A0246DBCD54ABE890FD42DD5 /* Foundation.framework */; };
+		9D1079A11BBB3DB4008B68C6 /* MDTFTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A01BBB3DB4008B68C6 /* MDTFTextFieldView.xib */; settings = {ASSET_TAGS = (); }; };
+		9D1079A21BBB3DB4008B68C6 /* MDTFTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A01BBB3DB4008B68C6 /* MDTFTextFieldView.xib */; settings = {ASSET_TAGS = (); }; };
+		9D1079B71BBC3066008B68C6 /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A41BBC3066008B68C6 /* Apache License.txt */; settings = {ASSET_TAGS = (); }; };
+		9D1079B81BBC3066008B68C6 /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A41BBC3066008B68C6 /* Apache License.txt */; settings = {ASSET_TAGS = (); }; };
+		9D1079B91BBC3066008B68C6 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A51BBC3066008B68C6 /* Roboto-Black.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079BA1BBC3066008B68C6 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A51BBC3066008B68C6 /* Roboto-Black.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079BB1BBC3066008B68C6 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A61BBC3066008B68C6 /* Roboto-BlackItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079BC1BBC3066008B68C6 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A61BBC3066008B68C6 /* Roboto-BlackItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079BD1BBC3066008B68C6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A71BBC3066008B68C6 /* Roboto-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079BE1BBC3066008B68C6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A71BBC3066008B68C6 /* Roboto-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079BF1BBC3066008B68C6 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A81BBC3066008B68C6 /* Roboto-BoldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C01BBC3066008B68C6 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A81BBC3066008B68C6 /* Roboto-BoldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C11BBC3066008B68C6 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A91BBC3066008B68C6 /* Roboto-Italic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C21BBC3066008B68C6 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079A91BBC3066008B68C6 /* Roboto-Italic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C31BBC3066008B68C6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AA1BBC3066008B68C6 /* Roboto-Light.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C41BBC3066008B68C6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AA1BBC3066008B68C6 /* Roboto-Light.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C51BBC3066008B68C6 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AB1BBC3066008B68C6 /* Roboto-LightItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C61BBC3066008B68C6 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AB1BBC3066008B68C6 /* Roboto-LightItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C71BBC3066008B68C6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AC1BBC3066008B68C6 /* Roboto-Medium.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C81BBC3066008B68C6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AC1BBC3066008B68C6 /* Roboto-Medium.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079C91BBC3066008B68C6 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AD1BBC3066008B68C6 /* Roboto-MediumItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079CA1BBC3066008B68C6 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AD1BBC3066008B68C6 /* Roboto-MediumItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079CB1BBC3066008B68C6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AE1BBC3066008B68C6 /* Roboto-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079CC1BBC3066008B68C6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AE1BBC3066008B68C6 /* Roboto-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079CD1BBC3066008B68C6 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AF1BBC3066008B68C6 /* Roboto-Thin.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079CE1BBC3066008B68C6 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079AF1BBC3066008B68C6 /* Roboto-Thin.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079CF1BBC3066008B68C6 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B01BBC3066008B68C6 /* Roboto-ThinItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D01BBC3066008B68C6 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B01BBC3066008B68C6 /* Roboto-ThinItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D11BBC3066008B68C6 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B11BBC3066008B68C6 /* RobotoCondensed-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D21BBC3066008B68C6 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B11BBC3066008B68C6 /* RobotoCondensed-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D31BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B21BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D41BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B21BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D51BBC3066008B68C6 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B31BBC3066008B68C6 /* RobotoCondensed-Italic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D61BBC3066008B68C6 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B31BBC3066008B68C6 /* RobotoCondensed-Italic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D71BBC3066008B68C6 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B41BBC3066008B68C6 /* RobotoCondensed-Light.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D81BBC3066008B68C6 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B41BBC3066008B68C6 /* RobotoCondensed-Light.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079D91BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B51BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079DA1BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B51BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079DB1BBC3066008B68C6 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B61BBC3066008B68C6 /* RobotoCondensed-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		9D1079DC1BBC3066008B68C6 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1079B61BBC3066008B68C6 /* RobotoCondensed-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		B639E99F83E2912078BBDAD95081FA82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FCA635A0246DBCD54ABE890FD42DD5 /* Foundation.framework */; };
+		E64155638845AA45D9F7EA1027C53759 /* MaterialDesignUITextFieldXib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6C1929EFF37B47CA0D6321F28FF939A /* MaterialDesignUITextFieldXib.bundle */; };
+		FBA15F4F84468CCF3AA8A45BCFE53AA1 /* Pods-MaterialDesignUITextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8173B37F279CDBD9A3FAEDD39D6B6986 /* Pods-MaterialDesignUITextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDB41197590251D614098E6B529A4A1 /* MaterialDesignUITextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B07AF0195C26A587613814FDD8CEE7BF /* MaterialDesignUITextField-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		192EEB22C54BF681A4561CBE667D3F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E72403007F489B8DB68D75DA3937C1D4;
+			remoteInfo = MaterialDesignUITextField;
+		};
+		5829AAA30CC8CBE6E87A6D9856615BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186226CC272A119E5BE032624FACA420;
+			remoteInfo = "MaterialDesignUITextField-MaterialDesignUITextFieldXib";
+		};
+		71A31F3E6CAD0DBA198D796278BF909A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E72403007F489B8DB68D75DA3937C1D4;
+			remoteInfo = MaterialDesignUITextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0072C09B2F04C94312C60D6DE33719B0 /* MDTFTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDTFTextField.m; sourceTree = "<group>"; };
+		05FCA635A0246DBCD54ABE890FD42DD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		05FFBFA71C6B7BF6C71C9E60E405CBEF /* MaterialDesignUITextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialDesignUITextField-umbrella.h"; sourceTree = "<group>"; };
+		07F5E2926C2DDFB263D97DC85F31EA2C /* Pods-MaterialDesignUITextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignUITextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0F861F40F56610E88469CA22B1A30528 /* MDTFTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MDTFTextField.h; sourceTree = "<group>"; };
+		10D99B108D7D357DA09CB4483D186B37 /* Pods-MaterialDesignUITextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignUITextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D80B3B6FD06658ABA822787BBC3FDA0 /* Pods-MaterialDesignUITextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignUITextField_Example-resources.sh"; sourceTree = "<group>"; };
+		21EFC3FD3F49A630A46AFC1B206E4F9B /* MaterialDesignUITextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialDesignUITextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5C3B4052D198DAC1EAD7BAF3EDBDCC /* Pods-MaterialDesignUITextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MaterialDesignUITextField_Example.modulemap"; sourceTree = "<group>"; };
+		3644B7CDFC0CFBDA8370261874DD9595 /* Pods-MaterialDesignUITextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignUITextField_Tests-resources.sh"; sourceTree = "<group>"; };
+		407CF139028883819B436BDCF40AE9D2 /* MaterialDesignUITextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialDesignUITextField-prefix.pch"; sourceTree = "<group>"; };
+		498C700515DF6F7E58202BCCF288B476 /* Pods-MaterialDesignUITextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignUITextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		55A7688AE2E3A91F110771BC06063080 /* MaterialDesignUITextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MaterialDesignUITextField.modulemap; sourceTree = "<group>"; };
+		5653CB52283E447CB3D1D6883CB15346 /* Pods-MaterialDesignUITextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialDesignUITextField_Example-dummy.m"; sourceTree = "<group>"; };
+		7510C88D818CD9345EEEA8D96D862C36 /* Pods-MaterialDesignUITextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDesignUITextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		79EC2896320BEF8E4D20FEE7863DE690 /* Pods-MaterialDesignUITextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MaterialDesignUITextField_Tests.modulemap"; sourceTree = "<group>"; };
+		7D1548EC88370F8AA45B06FF5FC7148D /* Pods-MaterialDesignUITextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialDesignUITextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		8173B37F279CDBD9A3FAEDD39D6B6986 /* Pods-MaterialDesignUITextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialDesignUITextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D1079A01BBB3DB4008B68C6 /* MDTFTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDTFTextFieldView.xib; sourceTree = "<group>"; };
+		9D1079A41BBC3066008B68C6 /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		9D1079A51BBC3066008B68C6 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		9D1079A61BBC3066008B68C6 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9D1079A71BBC3066008B68C6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		9D1079A81BBC3066008B68C6 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9D1079A91BBC3066008B68C6 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		9D1079AA1BBC3066008B68C6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		9D1079AB1BBC3066008B68C6 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		9D1079AC1BBC3066008B68C6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9D1079AD1BBC3066008B68C6 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9D1079AE1BBC3066008B68C6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9D1079AF1BBC3066008B68C6 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		9D1079B01BBC3066008B68C6 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9D1079B11BBC3066008B68C6 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		9D1079B21BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9D1079B31BBC3066008B68C6 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		9D1079B41BBC3066008B68C6 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		9D1079B51BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		9D1079B61BBC3066008B68C6 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		A4B98B5742612E7197A339ADECD239DE /* Pods-MaterialDesignUITextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialDesignUITextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A68A143C70C925B5F5A2FE6CE6D6A755 /* Pods-MaterialDesignUITextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialDesignUITextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE73B69CE1EC830D2BEB4913CF080860 /* Pods-MaterialDesignUITextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignUITextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B07AF0195C26A587613814FDD8CEE7BF /* MaterialDesignUITextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialDesignUITextField-dummy.m"; sourceTree = "<group>"; };
+		B24A8AF6B4EC0130EFA6A096A48DBD98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCD72659A28102A16ABFA173BE57731F /* Pods-MaterialDesignUITextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialDesignUITextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BEA918E2978CF208E0B45ADC1823E3A5 /* Pods-MaterialDesignUITextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDesignUITextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C395CEA1C59804F32398B4C6B3998B50 /* Pods_MaterialDesignUITextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialDesignUITextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C424C6698C52F0A5586E3E80EAE40398 /* Pods-MaterialDesignUITextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialDesignUITextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C442FC68340D6527636531C9BFD4DF55 /* Pods-MaterialDesignUITextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialDesignUITextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE18D4A094F794009AA180EBFEF087B2 /* MaterialDesignUITextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MaterialDesignUITextField-Private.xcconfig"; sourceTree = "<group>"; };
+		D6C1929EFF37B47CA0D6321F28FF939A /* MaterialDesignUITextFieldXib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialDesignUITextFieldXib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93E1E46877A718AC8A7825AAD7347DA /* MaterialDesignUITextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialDesignUITextField.xcconfig; sourceTree = "<group>"; };
+		E85C6CBCCFD3A2494A2B1E0BB7FF188F /* Pods_MaterialDesignUITextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialDesignUITextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF875CD48992DDD1E3E879BBB9799788 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F394FAE1FC81F92E275997D1CD390EAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F0487B31C5B20491B9A1860BBAAA24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B02F207B7A64B7583C06AC759438702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4E8F0A130637EFDAEBD8F440E8697E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEBDAF065A6F504987B2BEE550176A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A22B781A5E967DD383B166CE222431 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C593B41B5A452CB5C63C5D0B958D52B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B639E99F83E2912078BBDAD95081FA82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0804613021A90AE9DE1DE232061D4824 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8768129C20566CE1579AB4F8FEA5C9E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				05FCA635A0246DBCD54ABE890FD42DD5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66240634050E268BA9B521DB536AF995 /* MaterialDesignUITextField */ = {
+			isa = PBXGroup;
+			children = (
+				0804613021A90AE9DE1DE232061D4824 /* Pod */,
+				6848FF68935542F427EA1F03A6ADE1FE /* Support Files */,
+			);
+			name = MaterialDesignUITextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6848FF68935542F427EA1F03A6ADE1FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1079A31BBC3066008B68C6 /* roboto */,
+				F394FAE1FC81F92E275997D1CD390EAA /* Info.plist */,
+				55A7688AE2E3A91F110771BC06063080 /* MaterialDesignUITextField.modulemap */,
+				D93E1E46877A718AC8A7825AAD7347DA /* MaterialDesignUITextField.xcconfig */,
+				CE18D4A094F794009AA180EBFEF087B2 /* MaterialDesignUITextField-Private.xcconfig */,
+				B07AF0195C26A587613814FDD8CEE7BF /* MaterialDesignUITextField-dummy.m */,
+				407CF139028883819B436BDCF40AE9D2 /* MaterialDesignUITextField-prefix.pch */,
+				05FFBFA71C6B7BF6C71C9E60E405CBEF /* MaterialDesignUITextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MaterialDesignUITextField";
+			sourceTree = "<group>";
+		};
+		73BB5240162C5045964C2E304A72E31C /* Pods-MaterialDesignUITextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B24A8AF6B4EC0130EFA6A096A48DBD98 /* Info.plist */,
+				79EC2896320BEF8E4D20FEE7863DE690 /* Pods-MaterialDesignUITextField_Tests.modulemap */,
+				A68A143C70C925B5F5A2FE6CE6D6A755 /* Pods-MaterialDesignUITextField_Tests-acknowledgements.markdown */,
+				C424C6698C52F0A5586E3E80EAE40398 /* Pods-MaterialDesignUITextField_Tests-acknowledgements.plist */,
+				7D1548EC88370F8AA45B06FF5FC7148D /* Pods-MaterialDesignUITextField_Tests-dummy.m */,
+				7510C88D818CD9345EEEA8D96D862C36 /* Pods-MaterialDesignUITextField_Tests-frameworks.sh */,
+				3644B7CDFC0CFBDA8370261874DD9595 /* Pods-MaterialDesignUITextField_Tests-resources.sh */,
+				BCD72659A28102A16ABFA173BE57731F /* Pods-MaterialDesignUITextField_Tests-umbrella.h */,
+				BEA918E2978CF208E0B45ADC1823E3A5 /* Pods-MaterialDesignUITextField_Tests.debug.xcconfig */,
+				10D99B108D7D357DA09CB4483D186B37 /* Pods-MaterialDesignUITextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-MaterialDesignUITextField_Tests";
+			path = "Target Support Files/Pods-MaterialDesignUITextField_Tests";
+			sourceTree = "<group>";
+		};
+		7B82DC70C7B96D1F23E88ED84D6EAE9B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66240634050E268BA9B521DB536AF995 /* MaterialDesignUITextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				7B82DC70C7B96D1F23E88ED84D6EAE9B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				82A5E508D5EC81F10C1E26A1D71A07A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82A5E508D5EC81F10C1E26A1D71A07A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE9EF74DE20B4A3B76EF5D7DDAC2FEFB /* Pods-MaterialDesignUITextField_Example */,
+				73BB5240162C5045964C2E304A72E31C /* Pods-MaterialDesignUITextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9D1079A31BBC3066008B68C6 /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				9D1079A41BBC3066008B68C6 /* Apache License.txt */,
+				9D1079A51BBC3066008B68C6 /* Roboto-Black.ttf */,
+				9D1079A61BBC3066008B68C6 /* Roboto-BlackItalic.ttf */,
+				9D1079A71BBC3066008B68C6 /* Roboto-Bold.ttf */,
+				9D1079A81BBC3066008B68C6 /* Roboto-BoldItalic.ttf */,
+				9D1079A91BBC3066008B68C6 /* Roboto-Italic.ttf */,
+				9D1079AA1BBC3066008B68C6 /* Roboto-Light.ttf */,
+				9D1079AB1BBC3066008B68C6 /* Roboto-LightItalic.ttf */,
+				9D1079AC1BBC3066008B68C6 /* Roboto-Medium.ttf */,
+				9D1079AD1BBC3066008B68C6 /* Roboto-MediumItalic.ttf */,
+				9D1079AE1BBC3066008B68C6 /* Roboto-Regular.ttf */,
+				9D1079AF1BBC3066008B68C6 /* Roboto-Thin.ttf */,
+				9D1079B01BBC3066008B68C6 /* Roboto-ThinItalic.ttf */,
+				9D1079B11BBC3066008B68C6 /* RobotoCondensed-Bold.ttf */,
+				9D1079B21BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf */,
+				9D1079B31BBC3066008B68C6 /* RobotoCondensed-Italic.ttf */,
+				9D1079B41BBC3066008B68C6 /* RobotoCondensed-Light.ttf */,
+				9D1079B51BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf */,
+				9D1079B61BBC3066008B68C6 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = roboto;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21EFC3FD3F49A630A46AFC1B206E4F9B /* MaterialDesignUITextField.framework */,
+				D6C1929EFF37B47CA0D6321F28FF939A /* MaterialDesignUITextFieldXib.bundle */,
+				E85C6CBCCFD3A2494A2B1E0BB7FF188F /* Pods_MaterialDesignUITextField_Example.framework */,
+				C395CEA1C59804F32398B4C6B3998B50 /* Pods_MaterialDesignUITextField_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8768129C20566CE1579AB4F8FEA5C9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D1079A01BBB3DB4008B68C6 /* MDTFTextFieldView.xib */,
+				0F861F40F56610E88469CA22B1A30528 /* MDTFTextField.h */,
+				0072C09B2F04C94312C60D6DE33719B0 /* MDTFTextField.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE9EF74DE20B4A3B76EF5D7DDAC2FEFB /* Pods-MaterialDesignUITextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EF875CD48992DDD1E3E879BBB9799788 /* Info.plist */,
+				2B5C3B4052D198DAC1EAD7BAF3EDBDCC /* Pods-MaterialDesignUITextField_Example.modulemap */,
+				C442FC68340D6527636531C9BFD4DF55 /* Pods-MaterialDesignUITextField_Example-acknowledgements.markdown */,
+				A4B98B5742612E7197A339ADECD239DE /* Pods-MaterialDesignUITextField_Example-acknowledgements.plist */,
+				5653CB52283E447CB3D1D6883CB15346 /* Pods-MaterialDesignUITextField_Example-dummy.m */,
+				498C700515DF6F7E58202BCCF288B476 /* Pods-MaterialDesignUITextField_Example-frameworks.sh */,
+				1D80B3B6FD06658ABA822787BBC3FDA0 /* Pods-MaterialDesignUITextField_Example-resources.sh */,
+				8173B37F279CDBD9A3FAEDD39D6B6986 /* Pods-MaterialDesignUITextField_Example-umbrella.h */,
+				07F5E2926C2DDFB263D97DC85F31EA2C /* Pods-MaterialDesignUITextField_Example.debug.xcconfig */,
+				AE73B69CE1EC830D2BEB4913CF080860 /* Pods-MaterialDesignUITextField_Example.release.xcconfig */,
+			);
+			name = "Pods-MaterialDesignUITextField_Example";
+			path = "Target Support Files/Pods-MaterialDesignUITextField_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66891364FE8B3A1E55CAB71DFF3F1898 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA15F4F84468CCF3AA8A45BCFE53AA1 /* Pods-MaterialDesignUITextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4A2BAE9410931A61CA41C334653659 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438C324ECED8A1073103297761B5620 /* Pods-MaterialDesignUITextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C163D02DEF970DDFA754922323B97191 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB41BD1E7829DC4059A28F55CC59D64 /* MDTFTextField.h in Headers */,
+				70E6315BAAA60569D4A50E9B788DC121 /* MaterialDesignUITextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		186226CC272A119E5BE032624FACA420 /* MaterialDesignUITextField-MaterialDesignUITextFieldXib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBA8C9027BB509DEDF53FB391A90C77 /* Build configuration list for PBXNativeTarget "MaterialDesignUITextField-MaterialDesignUITextFieldXib" */;
+			buildPhases = (
+				FD7B9A760F2195853FF7A014B7DF1183 /* Sources */,
+				05F0487B31C5B20491B9A1860BBAAA24 /* Frameworks */,
+				99695C6BB46976F7D207F312235FD33A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaterialDesignUITextField-MaterialDesignUITextFieldXib";
+			productName = "MaterialDesignUITextField-MaterialDesignUITextFieldXib";
+			productReference = D6C1929EFF37B47CA0D6321F28FF939A /* MaterialDesignUITextFieldXib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		422064A471CA90E4AAFBCC013A0DC73D /* Pods-MaterialDesignUITextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A2C469AB9295444182397B7F7E655A /* Build configuration list for PBXNativeTarget "Pods-MaterialDesignUITextField_Example" */;
+			buildPhases = (
+				48169EDC505BA5D0F065F5A255B0C3F6 /* Sources */,
+				0B02F207B7A64B7583C06AC759438702 /* Frameworks */,
+				66891364FE8B3A1E55CAB71DFF3F1898 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E67ABFBEE53BC3AD28689E99FF978200 /* PBXTargetDependency */,
+			);
+			name = "Pods-MaterialDesignUITextField_Example";
+			productName = "Pods-MaterialDesignUITextField_Example";
+			productReference = E85C6CBCCFD3A2494A2B1E0BB7FF188F /* Pods_MaterialDesignUITextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E72403007F489B8DB68D75DA3937C1D4 /* MaterialDesignUITextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37143AA9CD0DFAA58FED2DEA8CA40CBB /* Build configuration list for PBXNativeTarget "MaterialDesignUITextField" */;
+			buildPhases = (
+				6B61A8DE7862823CEE5ABAC66417816B /* Sources */,
+				C593B41B5A452CB5C63C5D0B958D52B7 /* Frameworks */,
+				30F9CBD27505C3C081DAF5D6201EF998 /* Resources */,
+				C163D02DEF970DDFA754922323B97191 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2A6F27494EFF0D485D4DB07E2AE5CD /* PBXTargetDependency */,
+			);
+			name = MaterialDesignUITextField;
+			productName = MaterialDesignUITextField;
+			productReference = 21EFC3FD3F49A630A46AFC1B206E4F9B /* MaterialDesignUITextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA5C53704CDAB431B8485F149F6CE68E /* Pods-MaterialDesignUITextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C8829EE774AE74133C17EDE881966A /* Build configuration list for PBXNativeTarget "Pods-MaterialDesignUITextField_Tests" */;
+			buildPhases = (
+				01899D64B7C7448ECF679E71E4F1E858 /* Sources */,
+				BBEBDAF065A6F504987B2BEE550176A3 /* Frameworks */,
+				9E4A2BAE9410931A61CA41C334653659 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F9F267A96DFB06C3597CFA662838D95 /* PBXTargetDependency */,
+			);
+			name = "Pods-MaterialDesignUITextField_Tests";
+			productName = "Pods-MaterialDesignUITextField_Tests";
+			productReference = C395CEA1C59804F32398B4C6B3998B50 /* Pods_MaterialDesignUITextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E72403007F489B8DB68D75DA3937C1D4 /* MaterialDesignUITextField */,
+				186226CC272A119E5BE032624FACA420 /* MaterialDesignUITextField-MaterialDesignUITextFieldXib */,
+				422064A471CA90E4AAFBCC013A0DC73D /* Pods-MaterialDesignUITextField_Example */,
+				FA5C53704CDAB431B8485F149F6CE68E /* Pods-MaterialDesignUITextField_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F9CBD27505C3C081DAF5D6201EF998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1079CF1BBC3066008B68C6 /* Roboto-ThinItalic.ttf in Resources */,
+				9D1079CD1BBC3066008B68C6 /* Roboto-Thin.ttf in Resources */,
+				9D1079D91BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				E64155638845AA45D9F7EA1027C53759 /* MaterialDesignUITextFieldXib.bundle in Resources */,
+				9D1079B71BBC3066008B68C6 /* Apache License.txt in Resources */,
+				9D1079D31BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				9D1079D51BBC3066008B68C6 /* RobotoCondensed-Italic.ttf in Resources */,
+				9D1079C51BBC3066008B68C6 /* Roboto-LightItalic.ttf in Resources */,
+				9D1079BD1BBC3066008B68C6 /* Roboto-Bold.ttf in Resources */,
+				9D1079DB1BBC3066008B68C6 /* RobotoCondensed-Regular.ttf in Resources */,
+				9D1079D71BBC3066008B68C6 /* RobotoCondensed-Light.ttf in Resources */,
+				9D1079C91BBC3066008B68C6 /* Roboto-MediumItalic.ttf in Resources */,
+				9D1079BB1BBC3066008B68C6 /* Roboto-BlackItalic.ttf in Resources */,
+				9D1079A11BBB3DB4008B68C6 /* MDTFTextFieldView.xib in Resources */,
+				9D1079C11BBC3066008B68C6 /* Roboto-Italic.ttf in Resources */,
+				9D1079D11BBC3066008B68C6 /* RobotoCondensed-Bold.ttf in Resources */,
+				9D1079BF1BBC3066008B68C6 /* Roboto-BoldItalic.ttf in Resources */,
+				9D1079C71BBC3066008B68C6 /* Roboto-Medium.ttf in Resources */,
+				9D1079CB1BBC3066008B68C6 /* Roboto-Regular.ttf in Resources */,
+				9D1079B91BBC3066008B68C6 /* Roboto-Black.ttf in Resources */,
+				9D1079C31BBC3066008B68C6 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99695C6BB46976F7D207F312235FD33A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1079DA1BBC3066008B68C6 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				9D1079C81BBC3066008B68C6 /* Roboto-Medium.ttf in Resources */,
+				9D1079C01BBC3066008B68C6 /* Roboto-BoldItalic.ttf in Resources */,
+				9D1079A21BBB3DB4008B68C6 /* MDTFTextFieldView.xib in Resources */,
+				9D1079B81BBC3066008B68C6 /* Apache License.txt in Resources */,
+				9D1079BE1BBC3066008B68C6 /* Roboto-Bold.ttf in Resources */,
+				9D1079C21BBC3066008B68C6 /* Roboto-Italic.ttf in Resources */,
+				9D1079D61BBC3066008B68C6 /* RobotoCondensed-Italic.ttf in Resources */,
+				9D1079D41BBC3066008B68C6 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				9D1079D21BBC3066008B68C6 /* RobotoCondensed-Bold.ttf in Resources */,
+				9D1079CC1BBC3066008B68C6 /* Roboto-Regular.ttf in Resources */,
+				9D1079D81BBC3066008B68C6 /* RobotoCondensed-Light.ttf in Resources */,
+				9D1079C61BBC3066008B68C6 /* Roboto-LightItalic.ttf in Resources */,
+				9D1079BA1BBC3066008B68C6 /* Roboto-Black.ttf in Resources */,
+				9D1079C41BBC3066008B68C6 /* Roboto-Light.ttf in Resources */,
+				9D1079D01BBC3066008B68C6 /* Roboto-ThinItalic.ttf in Resources */,
+				9D1079CA1BBC3066008B68C6 /* Roboto-MediumItalic.ttf in Resources */,
+				9D1079CE1BBC3066008B68C6 /* Roboto-Thin.ttf in Resources */,
+				9D1079DC1BBC3066008B68C6 /* RobotoCondensed-Regular.ttf in Resources */,
+				9D1079BC1BBC3066008B68C6 /* Roboto-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01899D64B7C7448ECF679E71E4F1E858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127A0EA2959359184D3F8163B511F05B /* Pods-MaterialDesignUITextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48169EDC505BA5D0F065F5A255B0C3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8C0E47EFA12E5E804CBDD53937829A /* Pods-MaterialDesignUITextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B61A8DE7862823CEE5ABAC66417816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C28DACFA3C3B1922D0D9D902D0F9130 /* MDTFTextField.m in Sources */,
+				FCDB41197590251D614098E6B529A4A1 /* MaterialDesignUITextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B9A760F2195853FF7A014B7DF1183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C2A6F27494EFF0D485D4DB07E2AE5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MaterialDesignUITextField-MaterialDesignUITextFieldXib";
+			target = 186226CC272A119E5BE032624FACA420 /* MaterialDesignUITextField-MaterialDesignUITextFieldXib */;
+			targetProxy = 5829AAA30CC8CBE6E87A6D9856615BA3 /* PBXContainerItemProxy */;
+		};
+		0F9F267A96DFB06C3597CFA662838D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialDesignUITextField;
+			target = E72403007F489B8DB68D75DA3937C1D4 /* MaterialDesignUITextField */;
+			targetProxy = 192EEB22C54BF681A4561CBE667D3F91 /* PBXContainerItemProxy */;
+		};
+		E67ABFBEE53BC3AD28689E99FF978200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialDesignUITextField;
+			target = E72403007F489B8DB68D75DA3937C1D4 /* MaterialDesignUITextField */;
+			targetProxy = 71A31F3E6CAD0DBA198D796278BF909A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0CBF2B9ADA4BC37983CAADC7AFD2EACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D99B108D7D357DA09CB4483D186B37 /* Pods-MaterialDesignUITextField_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Tests/Pods-MaterialDesignUITextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MaterialDesignUITextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		499EC9BEC30612D95E4E890647DCB36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA918E2978CF208E0B45ADC1823E3A5 /* Pods-MaterialDesignUITextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Tests/Pods-MaterialDesignUITextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MaterialDesignUITextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		608F088DC3784A3B505903A0A5986DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F5E2926C2DDFB263D97DC85F31EA2C /* Pods-MaterialDesignUITextField_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Example/Pods-MaterialDesignUITextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MaterialDesignUITextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67C0A8C4FE858F965AD5F64AC45B324B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18D4A094F794009AA180EBFEF087B2 /* MaterialDesignUITextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MaterialDesignUITextFieldXib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7DD5A367E334C3AA868D8B2D39797E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18D4A094F794009AA180EBFEF087B2 /* MaterialDesignUITextField-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialDesignUITextField/MaterialDesignUITextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialDesignUITextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialDesignUITextField/MaterialDesignUITextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MaterialDesignUITextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1C7C9E11B184C48BE72856ABD7F3E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE73B69CE1EC830D2BEB4913CF080860 /* Pods-MaterialDesignUITextField_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MaterialDesignUITextField_Example/Pods-MaterialDesignUITextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MaterialDesignUITextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C800130AF8CC0B1FBFC05F8724FA7A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18D4A094F794009AA180EBFEF087B2 /* MaterialDesignUITextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MaterialDesignUITextFieldXib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EB381A91038C9B5F20F4CBFF0F1D0280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18D4A094F794009AA180EBFEF087B2 /* MaterialDesignUITextField-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialDesignUITextField/MaterialDesignUITextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialDesignUITextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialDesignUITextField/MaterialDesignUITextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MaterialDesignUITextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C8829EE774AE74133C17EDE881966A /* Build configuration list for PBXNativeTarget "Pods-MaterialDesignUITextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499EC9BEC30612D95E4E890647DCB36E /* Debug */,
+				0CBF2B9ADA4BC37983CAADC7AFD2EACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37143AA9CD0DFAA58FED2DEA8CA40CBB /* Build configuration list for PBXNativeTarget "MaterialDesignUITextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD5A367E334C3AA868D8B2D39797E73 /* Debug */,
+				EB381A91038C9B5F20F4CBFF0F1D0280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBA8C9027BB509DEDF53FB391A90C77 /* Build configuration list for PBXNativeTarget "MaterialDesignUITextField-MaterialDesignUITextFieldXib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C800130AF8CC0B1FBFC05F8724FA7A4C /* Debug */,
+				67C0A8C4FE858F965AD5F64AC45B324B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A2C469AB9295444182397B7F7E655A /* Build configuration list for PBXNativeTarget "Pods-MaterialDesignUITextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608F088DC3784A3B505903A0A5986DAC /* Debug */,
+				B1C7C9E11B184C48BE72856ABD7F3E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

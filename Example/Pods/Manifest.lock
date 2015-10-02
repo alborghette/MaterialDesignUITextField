@@ -1,0 +1,14 @@
+PODS:
+  - MaterialDesignUITextField (0.1.0)
+
+DEPENDENCIES:
+  - MaterialDesignUITextField (from `../`)
+
+EXTERNAL SOURCES:
+  MaterialDesignUITextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MaterialDesignUITextField: 0b28384adaa2550967d2dd75f5063d9335270ca3
+
+COCOAPODS: 0.38.2
