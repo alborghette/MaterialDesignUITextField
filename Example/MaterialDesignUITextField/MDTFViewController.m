@@ -8,10 +8,6 @@
 
 #import "MDTFViewController.h"
 
-@interface MDTFViewController ()
-
-@end
-
 @implementation MDTFViewController
 
 - (void)viewDidLoad

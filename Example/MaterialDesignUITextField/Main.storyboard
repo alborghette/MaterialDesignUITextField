@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,81 +14,35 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mH3-1e-McV" userLabel="Text Field 1" customClass="MDTFTextField">
-                                <rect key="frame" x="20" y="20" width="560" height="124"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SDi-U6-QFH" customClass="MDTFTextField">
+                                <rect key="frame" x="216" y="146" width="336" height="79"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="124" id="WKW-Kv-wwA"/>
-                                </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Text Field 1"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Name"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dKC-uL-SKH" userLabel="Text Field 2" customClass="MDTFTextField">
-                                <rect key="frame" x="180" y="152" width="240" height="128"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H5K-20-KTK" customClass="MDTFTextField">
+                                <rect key="frame" x="216" y="58" width="336" height="80"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="Nik-n6-e0d"/>
-                                </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Text Field 2"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VAF-ad-sJE" userLabel="Text Field 3" customClass="MDTFTextField">
-                                <rect key="frame" x="304" y="288" width="276" height="128"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="276" id="EG7-um-FBP"/>
-                                    <constraint firstAttribute="height" constant="128" id="nT2-B3-QaN"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Text Field 3"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i3V-0N-Khz" userLabel="Text Field 4" customClass="MDTFTextField">
-                                <rect key="frame" x="20" y="424" width="285" height="128"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="RtQ-xH-jBx"/>
-                                    <constraint firstAttribute="width" constant="285" id="VOa-wG-kB1"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Text Field 4"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Email"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorText" value="Invalid email"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="leadingMargin" secondItem="mH3-1e-McV" secondAttribute="leading" id="8b8-7r-i0w"/>
-                            <constraint firstItem="VAF-ad-sJE" firstAttribute="top" secondItem="dKC-uL-SKH" secondAttribute="bottom" constant="8" id="NpQ-mq-RDf"/>
-                            <constraint firstItem="i3V-0N-Khz" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="PUK-2q-9kC"/>
-                            <constraint firstItem="dKC-uL-SKH" firstAttribute="top" secondItem="mH3-1e-McV" secondAttribute="bottom" constant="8" id="Xla-yh-HBu"/>
-                            <constraint firstItem="mH3-1e-McV" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="dug-xJ-3kI"/>
-                            <constraint firstItem="dKC-uL-SKH" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="160" id="jt6-1t-HxT"/>
-                            <constraint firstItem="i3V-0N-Khz" firstAttribute="top" secondItem="dKC-uL-SKH" secondAttribute="bottom" constant="144" id="lOV-dg-TV4"/>
-                            <constraint firstItem="VAF-ad-sJE" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="rXr-ed-fVY"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dKC-uL-SKH" secondAttribute="trailing" constant="160" id="vVo-JB-HpS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mH3-1e-McV" secondAttribute="trailing" id="vdG-YU-XcE"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="mdTextField1" destination="mH3-1e-McV" id="tn1-3N-iat"/>
-                        <outlet property="mdTextField2" destination="dKC-uL-SKH" id="gYl-do-gXt"/>
-                        <outlet property="mdTextField3" destination="VAF-ad-sJE" id="A3I-Ix-0pr"/>
-                        <outlet property="mdTextField4" destination="i3V-0N-Khz" id="bGA-Ah-VmE"/>
-                    </connections>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="417" y="433"/>
         </scene>
     </scenes>
 </document>
