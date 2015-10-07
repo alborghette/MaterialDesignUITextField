@@ -139,24 +139,24 @@
 
 
 /*!
- *  @brief  <#Description#>
+ *  @brief  Set editing style to textfield
  */
 - (void)setEditingStyle;
 
 /*!
- *  @brief  <#Description#>
+ *  @brief  Set finish edit style to textfield
  */
 - (void)setFinishEditStyle;
 
 /*!
- *  @brief  <#Description#>
+ *  @brief  Set error style to textfield
  */
 - (void)setErrorStyle;
 
 /*!
- *  @brief  <#Description#>
+ *  @brief  Set error style with custom error message
  *
- *  @param message <#message description#>
+ *  @param message Error message
  */
 - (void)setErrorStyleWithMessage:(NSString *)message;
 
@@ -165,6 +165,7 @@
 
 
 @protocol MDTFTextFieldDelegate <NSObject>
+
 @optional
 - (void)mdtfTextFieldShouldBeginEditing:(MDTFTextField *)textField;
 @optional

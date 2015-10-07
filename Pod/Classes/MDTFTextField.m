@@ -99,6 +99,7 @@ NSString* const xibFileName = @"MDTFTextFieldView";
     [_txtField setTextColor:_nonEditedColorTextField];
     
     [_lblErrorMessage setTextColor:_errorMessageColor];
+    //Fix it
     //[_lblErrorMessage setFont:[UIFont fontWithName:_fontFamily size:_errorFontSize]];
     [_lblErrorMessage setText:_errorText];
     [_lblErrorMessage setHidden:YES];
@@ -115,6 +116,7 @@ NSString* const xibFileName = @"MDTFTextFieldView";
 - (void)setFinishEditStyle {
     [_lblPlaceholderTextField setTextColor:_editedColorPlaceholder];
     [_underlineText setBackgroundColor:_editedColorUnderline];
+    [_lblErrorMessage setHidden:YES];
 }
 
 - (void)setErrorStyle {
@@ -132,9 +134,16 @@ NSString* const xibFileName = @"MDTFTextFieldView";
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
     
     [self placeholderLabelEffectMoveUp:YES];
-    [self setEditingStyle];
     
-    [_delegate mdtfTextFieldShouldBeginEditing:self];
+
+    if (_lblPlaceholderTextField.textColor != _errorColorPlaceholder) {
+        //Set editing style only if field is without errors
+        [self setEditingStyle];
+    }
+    
+    if ([self.delegate respondsToSelector:@selector(mdtfTextFieldShouldBeginEditing:)]) {
+        [_delegate mdtfTextFieldShouldBeginEditing:self];
+    }
     
     return YES;
 }
@@ -145,7 +154,9 @@ NSString* const xibFileName = @"MDTFTextFieldView";
     }
     [self setFinishEditStyle];
     
-    [_delegate mdtfTextFieldDidEndEditing:self];
+    if ([self.delegate respondsToSelector:@selector(mdtfTextFieldDidEndEditing:)]) {
+        [_delegate mdtfTextFieldDidEndEditing:self];
+    }
 }
 
 #pragma mark animations events
