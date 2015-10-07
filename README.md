@@ -20,6 +20,9 @@ pod "MaterialDesignUITextField"
 
 ## Release Notes
 
+Version 0.1.1
+* Fix bugs in text field delegates calls
+
 Version 0.1.0
 * Initial release
 
