@@ -10,11 +10,7 @@
 
 @interface MDTFViewController : UIViewController<MDTFTextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet MDTFTextField *mdTextField1;
+@property (weak, nonatomic) IBOutlet MDTFTextField *mdtfEmail;
 
-@property (weak, nonatomic) IBOutlet MDTFTextField *mdTextField2;
-
-@property (weak, nonatomic) IBOutlet MDTFTextField *mdTextField3;
-
-@property (weak, nonatomic) IBOutlet MDTFTextField *mdTextField4;
+@property (weak, nonatomic) IBOutlet MDTFTextField *mdtfName;
 @end

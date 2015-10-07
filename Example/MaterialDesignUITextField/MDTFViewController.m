@@ -7,6 +7,7 @@
 //
 
 #import "MDTFViewController.h"
+#import "NSString+EmailValidation.h"
 
 @implementation MDTFViewController
 
@@ -15,7 +16,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [_mdTextField1 setDelegate:self];
+    [_mdtfEmail setDelegate:self];
+    [_mdtfName setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,12 +27,11 @@
 }
 
 
-- (void)mdtfTextFieldShouldBeginEditing:(MDTFTextField *)textField {
-    [textField setEditingStyle];
-}
 
 - (void)mdtfTextFieldDidEndEditing:(MDTFTextField *)textField {
-    [textField setErrorStyle];
+    if (textField == _mdtfEmail && ![textField.txtField.text isValidEmail]) {
+        [textField setErrorStyle];
+    }
 }
 
 @end

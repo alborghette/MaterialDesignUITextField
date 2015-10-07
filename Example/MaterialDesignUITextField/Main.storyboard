@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,35 +15,52 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SDi-U6-QFH" customClass="MDTFTextField">
-                                <rect key="frame" x="216" y="146" width="336" height="79"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5K-20-KTK" customClass="MDTFTextField">
+                                <rect key="frame" x="20" y="58" width="560" height="80"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Name"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H5K-20-KTK" customClass="MDTFTextField">
-                                <rect key="frame" x="216" y="58" width="336" height="80"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="JUr-Wv-IUp"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Email"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="errorText" value="Invalid email"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SDi-U6-QFH" customClass="MDTFTextField">
+                                <rect key="frame" x="20" y="146" width="560" height="80"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="vvF-Je-fD6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Name"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SDi-U6-QFH" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="LIh-h5-jTs"/>
+                            <constraint firstItem="H5K-20-KTK" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="jaz-jr-z5D"/>
+                            <constraint firstItem="SDi-U6-QFH" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="pbJ-xF-8PB"/>
+                            <constraint firstItem="H5K-20-KTK" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="qk5-I6-FoB"/>
+                            <constraint firstItem="SDi-U6-QFH" firstAttribute="top" secondItem="H5K-20-KTK" secondAttribute="bottom" constant="8" id="shw-9u-lO7"/>
+                            <constraint firstItem="H5K-20-KTK" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="38" id="wHO-G2-Qvy"/>
+                        </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="mdtfEmail" destination="H5K-20-KTK" id="ncf-bc-OuC"/>
+                        <outlet property="mdtfName" destination="SDi-U6-QFH" id="tSx-kc-XD0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="417" y="433"/>
+            <point key="canvasLocation" x="366" y="286"/>
         </scene>
     </scenes>
 </document>
